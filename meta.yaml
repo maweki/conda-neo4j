@@ -1,0 +1,15 @@
+package:
+    name: neo4j
+    version: "3.5.0"
+
+source:
+    git_url: https://github.com/neo4j/neo4j.git
+    git_rev: 3.5.0
+
+requirements:
+    build:
+        - git
+
+about:
+    home: https://neo4j.com/
+    license: GPLv3

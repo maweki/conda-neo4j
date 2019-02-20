@@ -2,8 +2,8 @@ mvn clean install -DskipTests
 pwd
 cd packaging/standalone/target
 pwd
-tar -vxzf neo4j-community-3.5.0-SNAPSHOT-unix.tar.gz
-cp -vr neo4j-community-3.5.0-SNAPSHOT ${PREFIX}/neo4j
+tar -vxzf neo4j-community-3.5.3-SNAPSHOT-unix.tar.gz
+cp -vr neo4j-community-3.5.3-SNAPSHOT ${PREFIX}/neo4j
 pwd
 
 echo ${PREFIX}
